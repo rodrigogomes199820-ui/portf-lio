@@ -1,0 +1,23 @@
+:root{
+
+/* FONTES */
+
+--fonte-titulo: 'Poppins', sans-serif;
+--fonte-texto: 'Roboto', sans-serif;
+
+
+/* TAMANHOS */
+
+--texto-pequeno: 14px;
+--texto-normal: 16px;
+--texto-medio: 20px;
+--texto-grande: 24px;
+--titulo-grande: 32px;
+
+
+/* PESO */
+
+--peso-normal: 400;
+--peso-negrito: 700;
+
+}

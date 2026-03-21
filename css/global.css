@@ -9,7 +9,7 @@
 }
 
 body {
-background: #1A0B2E;
+background: var(--corpricipal);
  
   line-height: 1.5;
 }

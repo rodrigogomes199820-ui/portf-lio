@@ -1,0 +1,46 @@
+:root{
+--corpricipal: #1A0B2E;
+
+--branco: #FFFFFF;
+--preto: #000000;
+
+--cinza-claro: #F3F4F6;
+--cinza-medio: #9CA3AF;
+--cinza-escuro: #374151;
+
+--azul-claro: #60A5FA;
+--azul: #3B82F6;
+--azul-escuro: #1E40AF;
+--azul-petroleo: #0F172A;
+--azul-marinho: #1E293B;
+
+--ciano: #06B6D4;
+--turquesa: #14B8A6;
+
+--verde-claro: #4ADE80;
+--verde: #22C55E;
+--verde-escuro: #166534;
+
+--amarelo-claro: #FDE047;
+--amarelo: #EAB308;
+
+--laranja-claro: #FB923C;
+--laranja: #F97316;
+
+--vermelho-claro: #F87171;
+--vermelho: #EF4444;
+--vermelho-escuro: #B91C1C;
+
+--rosa-claro: #F9A8D4;
+--rosa: #EC4899;
+
+--roxo-claro: #C084FC;
+--roxo: #9333EA;
+--roxo-escuro: #6B21A8;
+
+--bege: #F5F5DC;
+
+--marrom-claro: #D97706;
+--marrom-escuro: #78350F;
+
+}

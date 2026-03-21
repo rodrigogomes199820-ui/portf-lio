@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Rodrigo Gomes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
 
 <header>
   <nav class="menu" aria-label="Navegação principal">
-    <img src="./img/logo.png" alt="logo">
+
+    <button class="btn-menu ">☰</button>
+    <img src="./img/logo.png" alt="Logo do portfólio">
 
     <ul>
       <li><a href="#inicio">Início</a></li>
@@ -24,33 +31,124 @@
 </header>
 
 
-<section id="sobre" class="container">
-  <div class="sobre-imagem">
-    <img src="./img/imagem perfil.png" alt="Foto do Rodrigo Gomes">
-  </div>
 
-  <div class="texto">
-    <p>Desenvolvedor</p>
-    <h2>
-      Rodrigo Gomes 
-      <span>Front-End...</span>
-    </h2>
-    <p><p>
-  Criando interfaces web modernas e responsivas.
-</p></p>
-  </div>
+  <section id="inicio" class="container">
+
+    <div class="sobre-imagem">
+      <img src="./img/imagem perfil.png" alt="Foto de Rodrigo Gomes">
+    </div>
+
+    <div class="texto">
+      <p>Desenvolvedor</p>
+
+      <h1>
+        Rodrigo Gomes 
+        <span>Front-End</span>
+      </h1>
+
+      <p>
+        Criando interfaces web modernas e responsivas.
+      </p>
+    </div>
+
+  </section>
+
+
+ 
+  <section id="sobre">
+
+    <article class="sobre-mim">
+
+      <h2>Sobre Mim</h2>
+
+      <p>
+        Olá! Meu nome é Rodrigo e sou desenvolvedor Front-End em formação. 
+        Atualmente estou estudando Análise e Desenvolvimento de Sistemas, 
+        onde venho aprofundando meus conhecimentos em desenvolvimento web, 
+        lógica de programação e boas práticas de código.
+      </p>
+
+      <p>
+        Durante meus estudos venho trabalhando com tecnologias como HTML, 
+        CSS e JavaScript, construindo projetos práticos que me ajudam a 
+        evoluir como desenvolvedor. Meu objetivo é continuar aprimorando 
+        minhas habilidades e criar aplicações cada vez mais completas e eficientes.
+      </p>
+
+    </article>
+
+  </section>
+
+
+<section class="projetos">
+
+  <h2>Projetos Pessoais</h2>
+
+  <ul class="lista-projetos">
+
+    <li class="projeto">
+      <h3>Projeto 1</h3>
+      <a href="#">Ver projeto</a>
+    </li>
+
+    <li class="projeto">
+      <h3>Projeto 2</h3>
+      <a href="#">Ver projeto</a>
+    </li>
+
+    <li class="projeto">
+      <h3>Projeto 3</h3>
+      <a href="#">Ver projeto</a>
+    </li>
+
+    <li class="projeto">
+      <h3>Projeto 4</h3>
+      <a href="#">Ver projeto</a>
+    </li>
+
+  </ul>
+
 </section>
-<footer class="rodape">
-<div class="informacao">
+
+
+
+
+<footer id="contato" class="rodape">
+
+  <section class="informacao">
+
     <ul>
-    <li>Email: rodrigogomes1998@gmail.com </li>
-    <li>GitHub: github.com/rodrigo </li>
-    <li>LinkedIn: linkedin.com/in/rodrigo </li>
+
+      <li>
+        Email:
+        <a href="mailto:rodrigogomes1998@gmail.com">
+          rodrigogomes1998@gmail.com
+        </a>
+      </li>
+
+      <li>
+        GitHub:
+        <a href="https://github.com/rodrigogomes199820-ui" target="_blank">
+          rodrigogomes199820-ui
+        </a>
+      </li>
+
+      <li>
+        LinkedIn:
+        <a href="https://linkedin.com/in/rodrigo-gomes-4a892b399" target="_blank">
+          linkedin.com/in/rodrigo-gomes-4a892b399
+        </a>
+      </li>
+
     </ul>
-  </div>
+
+  </section>
 
   <p>&copy; 2026 Rodrigo Gomes. Todos os direitos reservados.</p>
+
 </footer>
 
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

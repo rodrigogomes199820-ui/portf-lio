@@ -8,12 +8,12 @@
   gap: 20px;
 }
 
-.texto {
+.container .texto {
   margin-top: 5px;
   width: 386px;
 }
 
-.texto h2 {
+.container .texto h1{
   font-family: 'Poppins';
   color: white;
   font-size: 30px;
@@ -25,12 +25,9 @@
 
 .texto span {
   color: rgb(13, 137, 186);
- 
   display: block;
   font-size: 25px;
 }
-
-
 
 .sobre-imagem img {
   width: 250px;
@@ -38,3 +35,7 @@
   object-fit: cover;
   border-radius: 8px;
 }
+
+
+
+

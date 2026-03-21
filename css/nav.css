@@ -15,6 +15,10 @@
   color: white;
 }
 
+.btn-menu{
+  display: none;
+}
+
 
 .menu ul {
   display: flex;
@@ -46,4 +50,42 @@
 
 .menu ul li a:hover::after {
   width: 100%;
+}
+
+
+
+@media (max-width: 600px){
+
+  .menu {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .menu img {
+    display: none;
+  }
+
+  .btn-menu{
+   display: block;
+  color: white;
+  font-size: 32px;
+  width: 60px;
+  height: 60px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  } 
+
+  .menu ul {
+    display: none; 
+
+  }
+
+  .menu ul.ativo {
+    display: flex; 
+  }
+
 }
