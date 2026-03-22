@@ -94,12 +94,12 @@ list-style: none;
     font-size: 24px;
   }
 
-  /* 👇 IMAGEM CENTRALIZADA CORRETA */
+  
   .sobre-imagem img {
     width: 150px;
     height: 150px;
     display: block;
-    margin: 0 auto; /* 👈 centraliza */
+    margin: 0 auto; 
   }
 
   .icones {
