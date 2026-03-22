@@ -7,7 +7,11 @@
 
 .titulo{
   background: linear-gradient(135deg, #1A0B2E, #2E1065, #000000);
+  margin-bottom: 40px;
+
+  
 }
+
 
 .titulo h1 {
   display: flex;

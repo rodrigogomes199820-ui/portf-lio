@@ -1,6 +1,6 @@
 
 
-/* RESET GLOBAL */
+
 
 * {
   margin: 0;
@@ -9,10 +9,17 @@
 }
 
 body {
-background: #1A0B2E;
- 
+  background: #1A0B2E;
   overflow-x: hidden;
   line-height: 1.5;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
 
 ul {
