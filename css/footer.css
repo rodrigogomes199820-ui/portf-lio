@@ -1,6 +1,17 @@
 .rodape{
     color: white;
     text-align: center;
+    background-color: #2E1065;
+    padding: 20px;
+    background: linear-gradient(135deg, #1A0B2E, #2E1065, #000000);
+    
+
+}
+
+
+ .rodape p {
+  font-size: 18px;
+  
 }
 
  .informacao ul {
@@ -8,7 +19,61 @@
     justify-content: center;
     gap: 40px;
     list-style: none;
+
+
+}
+
+
+
+.icone-roda-pe img{
+ width: 35px;
+ height: 35px;
+ margin-top: 10px;
+ margin-bottom: 15px;
+
+
+
+}
+
+@media(max-width:600px){
+
+    .rodape{
+   
+    text-align: center;
+    padding: 20px;
+  
     
+
+}
+
+
+ .rodape p {
+  font-size: 12px;
+  
+}
+
+ .informacao ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+
+
+}
+
+
+
+.icone-roda-pe img{
+ width: 30px;
+ height: 30px;
+ 
+ margin-bottom: 10px;
+
+
+
+}
    
     
+
+
 }
