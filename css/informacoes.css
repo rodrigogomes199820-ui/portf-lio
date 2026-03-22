@@ -7,7 +7,7 @@
 
 .titulo{
   background: linear-gradient(135deg, #1A0B2E, #2E1065, #000000);
-  margin-bottom: 40px;
+ 
 
   
 }
@@ -30,7 +30,7 @@
 }
 
 .paragrafo p{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -60,7 +60,7 @@
   }
 
   .paragrafo p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
 }
