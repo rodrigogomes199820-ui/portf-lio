@@ -10,10 +10,9 @@
 }
 
 body {
-  background: #1A0B2E;
+  background: #111827; 
   overflow-x: hidden;
   line-height: 1.5;
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;

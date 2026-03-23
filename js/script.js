@@ -4,3 +4,17 @@ const menu = document.querySelector('.menu ul');
 btn.addEventListener('click', () => {
   menu.classList.toggle('ativo');
 });
+
+
+const p = document.querySelectorAll('.paragrafo p');
+
+window.addEventListener('scroll', () => {
+  p.forEach((el) => {
+    if (el.getBoundingClientRect().top < window.innerHeight - 100) {
+      el.classList.add('ativo');
+    }
+  });
+});
+
+// executa ao carregar
+window.dispatchEvent(new Event('scroll'));

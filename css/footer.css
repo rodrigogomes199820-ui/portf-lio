@@ -10,7 +10,9 @@
 
 
  .rodape p {
-  font-size: 18px;
+  font-size: 15px;
+  font-family: 'Orbitron';
+  letter-spacing: 1px;
   
 }
 
