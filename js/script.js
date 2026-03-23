@@ -16,5 +16,5 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// executa ao carregar
+
 window.dispatchEvent(new Event('scroll'));

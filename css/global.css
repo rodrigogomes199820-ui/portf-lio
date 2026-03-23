@@ -10,7 +10,13 @@
 }
 
 body {
-  background: #111827; 
+background: linear-gradient(
+  to right,
+  #1A0B2E 0%,
+  #2E1065 40%,
+  #0077FF 80%,
+  #00CFE8 100%
+);
   overflow-x: hidden;
   line-height: 1.5;
   min-height: 100vh;
