@@ -40,7 +40,6 @@
   position: relative;
   transition: 0.3s;
 }
-
 .menu ul li a::after {
   content: "";
   position: absolute;
@@ -64,16 +63,24 @@
 
   .btn-menu {
     display: block;
-    color: white;
-     border: 1px solid white;
+    color:#00CFE8;
+     border: 1px solid #00CFE8;
      padding: 4px 4px;
     font-size: 16px; 
+     font-family: 'Orbitron';
     cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 4px;
     
 
 
+  }
+
+  .btn-menu:hover{
+    background: #00CFE8;
+    color: white;
+    transition: 0.7s;
   }
 
   
@@ -81,6 +88,7 @@
     display: none;
     flex-direction: column;
     align-items: flex-start;
+     background: #1A0B2E;
 
     position: absolute;
     top: 55px;
@@ -94,6 +102,7 @@
 
   .menu ul.ativo {
     display: flex;
+
   }
 
   .menu ul li {
@@ -103,8 +112,9 @@
   .menu ul li a {
     display: block;
     padding: 2px 0;
-    font-size: 12px;
-    color: white;
+    font-size: 9px;
+    color: #00CFE8;
+   
   }
 
   
